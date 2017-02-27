@@ -35,7 +35,7 @@ https://github.com/Ljqiii/Netkepper-Ubuntu.git
 
 1.2. 修改用户名和密码
 
-在 main.c 第169行修改用户名, 在 connectSh 第3行修改密码
+在 main.c 第147行修改用户名, 在 connectSh 第3行修改密码
 
 1.3. 编译
 
@@ -67,8 +67,8 @@ https://github.com/Ljqiii/Netkepper-Ubuntu.git
 
 2.2. 修改用户名和密码和配置文件
 
-在 main.c 第169行修改用户名, 在 connectSh 第3行修改密码
-在 main.c 第15和16行修改 RADIUS 值
+在 main.c 第147行修改用户名, 在 connectSh 第3行修改密码
+在 main.c 第15行修改 RADIUS 值
 
 地区 | RADIUS
 ------|-------
