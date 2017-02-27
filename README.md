@@ -104,11 +104,10 @@ sudo connect.sh
 ##感谢
 * [NETKEEPER ON WINDOWS](http://www.purpleroc.com/html/507231.html)
 * [CQUPT NETKEEPER](http://bbs.cqupt.edu.cn/nForum/#!article/Unix_Linux/13624)
-* <https://sunflyer.cn/archives/239>
-*[miao007](https://github.com/miao1007/)
+* [miao007](https://github.com/miao1007/)
 
 
 ##License
 
 1. GPL
-2.请勿作任何商业用途
+2. 请勿作任何商业用途
