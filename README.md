@@ -1,19 +1,21 @@
-#NetKeeper for Ubuntu 16.10
-##简述
-###本程序根据 miao1007 运行在 OpenWrt 上的 NetKepper 修改
+# NetKeeper for Ubuntu 16.10
+## **算法已经变化,软件已经失效**
+
+## 简述
+### 本程序根据 miao1007 运行在 OpenWrt 上的 NetKepper 修改
 
 [原项目地址](http://www.right.com.cn/forum/thread-141979-1-1.html)
 
-###在 ubuntu 上拨号原理
+### 在 ubuntu 上拨号原理
 1. 利用 main.c 获取真实的 pppoe 拨号帐号
 ( 在windows的客户端上是在真实帐号前加前缀,密码不变,利用加前缀的用户名和密码进行 pppoe 拨号, 具体加前缀方式请看原项目 )
 2. 修改系统 pppoe 配置文件,填入实际拨号帐号和密码
 3. 进行 pppoe 拨号
 
-###注意:
+### 注意:
 	**请保证系统时间正确运行之后不会有正确或者错误提示**
 
-###支持地区
+### 支持地区
 1. 武汉E信
 2. 重庆
 3. 杭州
@@ -25,10 +27,10 @@
 
 本程序在仅河北联通测试通过
 
-##如何使用
+## 如何使用
 
 
-####1. 河北同学
+#### 1. 河北同学
 
 1.1. 克隆代码
 
@@ -60,7 +62,7 @@ sudo ./connect.sh
 ```
 
 
-###2. 其他地区的用户
+### 2. 其他地区的用户
 
 2.1. 克隆代码
 
@@ -105,13 +107,13 @@ sudo ./pppconfig
 sudo connect.sh
 ```
 
-##感谢
+## 感谢
 * [NETKEEPER ON WINDOWS](http://www.purpleroc.com/html/507231.html)
 * [CQUPT NETKEEPER](http://bbs.cqupt.edu.cn/nForum/#!article/Unix_Linux/13624)
 * [miao007](https://github.com/miao1007/)
 
 
-##License
+## License
 
 1. GPL
 2. 请勿作任何商业用途
